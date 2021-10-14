@@ -103,3 +103,13 @@ printGoals("Davies", "Muller");
 // Then, call the function again with players from game.scored
 
 team1 < team2 && console.log("Tean 1 is more likely to win");
+
+team1 > team2 && console.log("Tean 2 is more likely to win");
+
+//OR
+
+// console.log(
+//   `${
+//     (team1 < team2 && game.team1) || (team2 < team1 && game.team2)
+//   } is more likely to win`
+// );
